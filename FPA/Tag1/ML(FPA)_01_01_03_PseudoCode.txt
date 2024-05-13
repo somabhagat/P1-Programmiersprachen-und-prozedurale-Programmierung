@@ -1,0 +1,30 @@
+﻿Programm ML(FPA)_01_01_03
+{
+	a1=3
+	a2=11
+	a3=15
+	a4=17
+	a5=33
+	a6=42
+	
+	b1='.'
+	b2='Z'
+	b3='a'
+	b4='h'
+	b5='l'
+	b6=':'
+	b7=' '
+	
+	zaehler=1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a1
+	zaehler=zaehler+1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a2
+	zaehler=zaehler+1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a3
+	zaehler=zaehler+1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a4
+	zaehler=zaehler+1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a5
+	zaehler=zaehler+1
+	Ausgabe: zaehler,b1,b2,b3,b4,b5,b6,b7,a6
+}

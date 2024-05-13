@@ -1,0 +1,30 @@
+﻿Programm ML(FPA)_01_04_03
+{
+    Eingabe: a
+
+	falls(a<0)
+    {
+        Ausgabe: "Ihre Eingabe" a "ist eine negative Zahl"
+    }
+    falls(a==0)
+    {
+        Ausgabe: "Ihre Eingabe ist Null"
+    }
+    falls(a>0)
+    {
+        Ausgabe: "Ihre Eingabe" a "ist eine positive Zahl"
+    }
+    falls(a>10)
+    {
+        Ausgabe: "Ihre Eingabe" a "liegt sogar oberhalb von 10"
+    }
+}
+
+
+
+
+
+
+
+
+

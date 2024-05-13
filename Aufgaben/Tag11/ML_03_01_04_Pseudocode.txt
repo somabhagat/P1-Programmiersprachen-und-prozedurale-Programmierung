@@ -1,0 +1,14 @@
+﻿gesamtPreis(einzelPreis,rabatt,stueckzahl)
+{
+    Ausgabe: "Der Gesamtpreis beläuft sich auf" einzelPreis*stueckzahl*(100-rabatt)/100) "€."
+}
+
+Programm ML_03_01_04
+{
+
+    Eingabe: einzelPreis
+    Eingabe: rabatt
+    Eingabe: stueckzahl
+
+    gesamtPreis(einzelPreis,rabatt,stueckzahl)
+}

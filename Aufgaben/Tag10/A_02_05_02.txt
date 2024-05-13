@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main()
+{
+    char arrayA[5], arrayB[5];
+    int i;
+    printf("Enter your 5 characters:\n");
+    for (i=0;i<5;i++){
+        printf("arrayA[%d]= ",i);
+        fflush(stdin);
+        scanf("%c",&arrayA[i]);
+    }
+    for (i=0;i<5;i++){
+        arrayB[i]=arrayA[4-i];
+        printf("\narrayB[%d]= %c",i,arrayB[i]);
+    }
+    return 0;
+}

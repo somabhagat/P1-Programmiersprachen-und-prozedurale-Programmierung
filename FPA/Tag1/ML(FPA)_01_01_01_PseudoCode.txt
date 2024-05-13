@@ -1,0 +1,13 @@
+﻿Programm ML(FPA)_01_01_01
+{
+	a=1
+	Ausgabe: a
+	a=a+1
+	Ausgabe: a
+	a=a+1
+	Ausgabe: a
+	a=a+1
+	Ausgabe: a
+	a=a+1
+	Ausgabe: a
+}

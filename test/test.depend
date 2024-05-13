@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1711026444 source:c:\users\sbhagat\onedrive\onedrive - wbsedu\dokumente\14 p1 programmiersprachen und prozedurale programmierung\fpa\tag7\test\main.c
+	<stdio.h>
+	<windows.h>
+	<time.h>
+	<stdlib.h>
+
+1712155556 source:c:\users\sbhagat\onedrive\onedrive - wbsedu\dokumente\14 p1 programmiersprachen und prozedurale programmierung\test\main.c
+	<stdio.h>
+	<windows.h>
+

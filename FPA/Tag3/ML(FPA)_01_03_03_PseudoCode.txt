@@ -1,0 +1,18 @@
+﻿Programm ML(FPA)_01_03_03
+{
+	Eingabe: gesamtStrecke
+    restStrecke=gesamtStrecke;
+	Ausgabe: "Zu Beginn ist das Ziel also noch rund" restStrecke "km entfernt."
+
+	Eingabe: etappe
+    restStrecke=restStrecke-etappe;
+	Ausgabe: "Das Ziel ist nun noch rund" restStrecke "km entfernt."
+
+	Eingabe: etappe
+    restStrecke=restStrecke-etappe;
+	Ausgabe: "Das Ziel ist nun noch rund" restStrecke "km entfernt."
+	
+	Eingabe: etappe
+    restStrecke=restStrecke-etappe;
+	Ausgabe: "Das Ziel ist nun noch rund" restStrecke "km entfernt."
+}

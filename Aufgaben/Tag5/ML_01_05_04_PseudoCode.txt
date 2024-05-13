@@ -1,0 +1,17 @@
+Programm ML_01_05_04
+{
+	Eingabe: x
+	
+	y=0
+	solange(y==0)
+	{
+		Eingabe: y
+		falls(y==0)
+		{
+			Ausgabe: "Durch 0 teilen ist nicht zulässig"
+		}
+	}
+	
+	quotient=x/y
+	Ausgabe: quotient
+}

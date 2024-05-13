@@ -1,0 +1,11 @@
+Programm ML_02_01_04
+{
+	anzahl=0
+	{
+		Eingabe: user
+		anzahl=anzahl+1
+	}
+	solange(user!=anzahl-1)
+	
+	Ausgabe: "Es kam insgesamt zu" anzahl "Schleifendurchläufen"
+}

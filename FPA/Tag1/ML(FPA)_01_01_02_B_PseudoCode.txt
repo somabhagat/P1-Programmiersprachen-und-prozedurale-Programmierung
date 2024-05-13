@@ -1,0 +1,9 @@
+﻿Programm ML(FPA)_01_01_02_B
+{
+	alter=100
+	c1='a'
+	c1='l'
+	c1='t'
+	c1=' '
+	Ausgabe: c1,c2,c3,c4
+}

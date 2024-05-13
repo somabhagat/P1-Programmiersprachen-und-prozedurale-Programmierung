@@ -1,0 +1,27 @@
+﻿Programm 02_04_03
+{
+    unten=1
+    oben=100
+    Ausgabe: "Unterer Startwert: 1     Oberer Startwert: 100       Es werden neue Werte zwischen 1 und 100 ausgelost"
+
+    do
+    {
+        x=Zufallszahl zwischen unten und oben
+        y=Zufallszahl zwischen unten und oben
+        if(x<=y)
+        {
+            unten=x
+            oben=y
+        }
+        else
+        {
+            unten=y
+            oben=x
+        }
+        Ausgabe:"Neuer Unterer Wert:" unten    "Neuer Oberer Wert:" oben
+        if(unten!=oben) Ausgabe:"Es werden neue Werte zwischen" unten " und" oben "ausgelost"
+    }
+    while(unten!=oben)
+
+    Ausgabe: "Untere und obere Grenze ist identisch -> Das Programm endet, Auf Wiedersehen!"
+}

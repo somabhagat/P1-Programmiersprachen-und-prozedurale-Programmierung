@@ -1,0 +1,32 @@
+Programm ML(FPA)_01_05_03
+{
+	treffer=0
+	solange(treffer<3)
+	{
+		Eingabe: buchstabe
+		falls(buchstabe=='E')
+		{
+			treffer=treffer+1
+		}
+		
+		Eingabe: buchstabe
+		falls(buchstabe=='i')
+		{
+			treffer=treffer+1
+		}
+		
+		Eingabe: buchstabe
+		falls(buchstabe=='s')
+		{
+			treffer=treffer+1
+		}
+		
+		falls(treffer<3)
+		{
+			Ausgabe: "Leider waren nur" treffer "von 3 Buchstaben korrekt"
+			treffer=0
+		}
+	}
+	
+	Ausgabe: "Glückwunsch! Sie haben sage und schreibe alle 3 Buchstaben korrekt eingegeben!"
+}

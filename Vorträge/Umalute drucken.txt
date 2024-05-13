@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+/*
+ * Anstatt windows.h einzubinden kann man alternativ auch die folgenden
+ * hexadezimalen Escapesequenzen nutzen.
+ */
+
+/*
+	ä \x84
+	ö \x94
+	ü \x81
+	Ä \x8e
+	Ö \x99
+	Ü \x9a
+	ß \xe1
+*/
+
+int main()
+{
+/*	printf("äöüÄÖÜß\n"); */
+	printf("\x84\x94\x81\x8e\x99\x9a\xe1");
+
+	return 0;
+}

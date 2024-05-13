@@ -1,0 +1,23 @@
+zufall(a, b)
+{
+    return Zufallszahl //zwischen beiderseits einschließlich a und b
+}
+
+istVolljaehrig(a)
+{
+    falls(a>=18)
+    {
+        return 'j'
+    }
+    return 'n'
+}
+
+Programm ML_03_02_04
+{
+    für(i=0;i<100;i++)
+    {
+        zuf=zufall(1,100)
+        antwort=istVolljaehrig(zuf)
+        Ausgabe: "Eine Person vom Alter" zuf "ist volljährig? Antwort:" antwort
+    }
+}

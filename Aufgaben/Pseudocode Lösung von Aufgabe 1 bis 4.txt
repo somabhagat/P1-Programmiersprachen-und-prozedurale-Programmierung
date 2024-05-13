@@ -1,0 +1,42 @@
+Programme "A_01_01_01"
+{
+	a=1000
+	b=a/10
+	c=b/10
+	d=c/10
+	Ausgabe: a, b, c, d
+}
+
+
+Programme "A_01_01_02"
+{
+	a=25
+	b=-101
+	summe=a+b
+	differenz=a-b
+	produkt=a*b
+	quotient=a/b
+	Ausgabe: summe, differenz, produkt, quotient
+}
+
+
+Programme "A01_01_03"
+{
+	zeichen1=H
+	zeichen2=a
+	zeichen3=l
+	zeichen4=l
+	zeichen5=o
+	Ausgabe: zeichen1, zeichen2, zeichen3, zeichen4, zeichen5
+}
+
+
+
+Programme "A01_01_04"
+{
+	radius=1.25
+	pi=3.1415927
+	umfang=2*pi*radius
+	fläche=pi*radius^2
+	Ausgabe: umfang, fläche
+}

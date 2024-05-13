@@ -1,0 +1,34 @@
+Schreibtischtest_03_01
+
+FRAGE:
+Welche Ausgabe erscheint, wenn der User für x ...
+
+a) 3
+b) 4
+c) 5
+d) 12
+
+... eingibt?
+
+Programm ST_03_01
+{
+	Eingabe: x
+	
+	wenn(x Modulo 3 == 0)
+	{
+		Ausgabe: 'A'
+	}
+	sonst
+	{
+		Ausgabe: 'B'
+	}
+	
+	wenn(x Modulo 4 == 0)
+	{
+		Ausgabe: 'X'
+	}
+	sonst
+	{
+		Ausgabe: 'Y'
+	}
+}

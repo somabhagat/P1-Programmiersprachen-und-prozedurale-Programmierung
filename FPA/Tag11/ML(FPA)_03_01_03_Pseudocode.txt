@@ -1,0 +1,45 @@
+wochentag(a)
+{
+   Ausgabe: "Die Zahl" a "entspricht dem Wochentag"
+   falls(a==1)
+   {
+       Ausgabe: "Montag"
+   }
+   falls(a==2)
+   {
+       Ausgabe: "Dienstag"
+   }
+   falls(a==3)
+   {
+       Ausgabe: "Mittwoch"
+   }
+   falls(a==4)
+   {
+       Ausgabe: "Donnerstag"
+   }
+   falls(a==5)
+   {
+       Ausgabe: "Freitag"
+   }
+   falls(a==6)
+   {
+       Ausgabe: "Samstag"
+   }
+   falls(a==7)
+   {
+       Ausgabe: "Sonntag"
+   }
+}
+
+Programm ML(FPA)_03_01_03
+{
+    für(i=1;i<=3;i++)
+    {
+        Ausgabe: "Hauptprogramm"
+        zahl=Zufallszahl // zwischen beiderseits einschließlich 1 und 7
+        Ausgabe: i ".Zufallszahl zwischen (beiderseits einschließlich) 1 und 7:" zahl
+
+        Ausgabe: "Funktion"
+        wochentag(zahl)
+    }
+}

@@ -1,0 +1,27 @@
+Program ML(FPA)_02_05_03
+{
+
+    Ausgabe: "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    Ausgabe: "Es werden zunächst Zufalls-Zahlen zwischen (beiderseits einschließlich) 1 und 20 ausgelost:"
+    Ausgabe: "+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++"
+    für(i=0;i<3;i++)
+    {
+        zuf=Zufallszahl // zwischen beiderseits einschließlich 1 bis 20
+        falls(zuf<=10)
+        {
+            Ausgabe: "Der ausgeloste Wert" zuf "ist kleiner gleich 10 und wird in arr[" i "] abgespeichert."
+            arr[i]=zuf
+        }
+        sonst
+        {
+            Ausgabe: "Der ausgeloste Wert" zuf "ist NICHT kleiner gleich 10 und wird NICHT in arr[" i "] abgespeichert."
+            i--
+        }
+    }
+
+    Ausgabe: "Zur Kontrolle werden die Inhalte der 3 Felder des Arrays arr[] ausgegeben:"
+    für(i=0;i<3;i++)
+    {
+        Ausgabe: " arr[" i "]=" arr[i]
+    }
+}

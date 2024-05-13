@@ -1,0 +1,63 @@
+schreibeHalloAusserCHARxUndZaehleAenderungen(zeichen)
+{
+    anzahl=0
+
+    falls(zeichen!='H')
+    {
+        Ausgabe: 'H'
+    }
+    sonst
+    {
+        anzahl++
+        Ausgabe: '*'
+    }
+
+    falls(zeichen!='a')
+    {
+        Ausgabe: 'a'
+    }
+    sonst
+    {
+        anzahl++
+        Ausgabe: '*'
+    }
+
+    falls(zeichen!='l')
+    {
+        Ausgabe: 'l'
+    }
+    sonst
+    {
+        anzahl++
+        Ausgabe: '*'   
+	}
+
+    falls(zeichen!='l')
+    {
+        Ausgabe: 'l'
+    }
+    sonst
+    {
+        anzahl++
+        Ausgabe: '*'
+    }
+
+    falls(zeichen!='o')
+    {
+        Ausgabe: 'o'
+    }
+    sonst
+    {
+        anzahl++
+        Ausgabe: '*'    
+	}
+
+    return anzahl
+}
+
+
+Programm ML(FPA)_03_02_03
+{
+    Eingabe: c
+    Ausgabe: "Anzahl der veränderten Zeichen:" schreibeHalloAusserCHARxUndZaehleAenderungen(c)
+}

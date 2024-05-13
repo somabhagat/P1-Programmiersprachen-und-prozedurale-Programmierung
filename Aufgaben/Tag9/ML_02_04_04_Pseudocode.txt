@@ -1,0 +1,15 @@
+Programm ML_02_04_04
+{
+	a=Zufallszahl (Wert zwischen beiderseits einschließlich -100 und 100)
+	b=Zufallszahl (Wert zwischen beiderseits einschließlich -100 und 100)
+	Eingabe: c
+	
+	falls(a+b==c)
+	{
+		Ausgabe: "Glückwunsch"
+	}
+	sonst
+	{
+		Ausgabe: "Fehler, korrekte Lösung ist" a+b
+	}
+}

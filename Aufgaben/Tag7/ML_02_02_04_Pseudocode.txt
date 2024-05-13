@@ -1,0 +1,16 @@
+Programm ML_02_02_04
+{
+    sprung=1
+	für(i=1;;i=i+sprung) 
+	{
+        Ausgabe: i
+        wenn(i==10)
+        {
+            sprung=-1
+        }
+        wenn(i==1)
+        {
+            sprung=1
+        }
+    }
+}

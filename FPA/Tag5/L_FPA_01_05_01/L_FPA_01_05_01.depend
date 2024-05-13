@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710747281 source:c:\users\sbhagat\onedrive\onedrive - wbsedu\dokumente\14 p1 programmiersprachen und prozedurale programmierung\fpa\tag5\l_fpa_01_05_01\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+

@@ -1,0 +1,12 @@
+Programm ML_01_03_04
+{
+	Eingabe: grundGebuehr
+	Eingabe: gefahreneKm
+	Eingabe: preisProKm
+	
+	gesamtPreis=grundGebuehr+gefahreneKm*preisProKm
+	
+	Ausgabe: 
+	"Bei einer Grundgebühr von" grundGebuehr "Euro und einem Kilometerpreis von" preisProKm "Euro, 
+	kostet eine" gefahreneKm "km lange Taxifahrt insgesamt" gesamtPreis "Euro." 
+}

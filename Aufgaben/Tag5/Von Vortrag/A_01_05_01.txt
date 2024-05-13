@@ -1,0 +1,10 @@
+Programm "Scheleifen-Beispiel"
+{
+	Eingabe:x
+	solange(x>1)
+	{
+		x=x/2
+		Ausgabe:x
+	}
+	Ausgabe:"Schelife wurde beendet"
+}

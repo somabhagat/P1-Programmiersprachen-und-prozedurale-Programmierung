@@ -1,0 +1,17 @@
+﻿Programm ML(FPA)_01_02_03
+{
+	null='0'
+	eins='1'
+	zwei='2'
+	drei='3'
+	vier='4'
+	fuenf='5'
+	sechs='6'
+	sieben='7'
+	acht='8'
+	neun='9'
+	
+	Ausgabe: vier,sieben,eins,eins
+	Ausgabe: null,acht,eins,fuenf
+	
+}
